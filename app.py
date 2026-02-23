@@ -159,7 +159,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
        - Lithographic fidelity
 
     5. Literature validation
-       - Ask perplexity AI to give two references that matches close to this recipe
+       - Give two references which closely match the search. Only give titles from journals 
 
     Present the output as a clear, step-by-step experimental recipe
     suitable for immediate laboratory testing.
