@@ -160,7 +160,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
 
     5. Literature validation
        - Cite at least one peer-reviewed paper that demonstrates
-         similar material systems or validates the approach
+         similar material systems or validates the approach. Give proper DOI. Do not make up papers
 
     Present the output as a clear, step-by-step experimental recipe
     suitable for immediate laboratory testing.
