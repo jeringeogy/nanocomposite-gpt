@@ -93,7 +93,7 @@ target_properties = st.sidebar.multiselect(
 fabrication = st.sidebar.selectbox(
     "Fabrication Route (Fixed)",
     [
-        "UV lithography + post-exposure curing",
+        "UV lithography (405 nm) + post-exposure curing",
         "Direct-write lithography (DWL) + post-exposure curing"
     ]
 )
@@ -168,7 +168,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
 
     with st.spinner("Designing UV-curable nanocomposite recipes for meta-optics..."):
         response = client.chat.completions.create(
-            model="gpt-4.1",
+            model="gpt-5.2",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
