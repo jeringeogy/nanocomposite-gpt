@@ -142,6 +142,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
        - Filler type and particle size range
        - Recommended loading (wt% or vol%)
        - Dispersion strategy
+       - Silanisation parameters (pH, temperature, stirring time, sonication details)
 
     2. UV-based fabrication process
        - Film deposition method
