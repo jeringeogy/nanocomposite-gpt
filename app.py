@@ -2,6 +2,29 @@ import streamlit as st
 from openai import OpenAI
 
 # -----------------------------
+# PASSWORD PROTECTION
+# -----------------------------
+def check_password():
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+
+    if not st.session_state.authenticated:
+        st.title("🔒 NanoComposites-GPT Access")
+        password = st.text_input("Enter password", type="password")
+
+        if st.button("Login"):
+            if password == st.secrets["APP_PASSWORD"]:
+                st.session_state.authenticated = True
+                st.success("Access granted")
+                st.rerun()
+            else:
+                st.error("Incorrect password")
+
+        st.stop()
+
+check_password()
+
+# -----------------------------
 # PAGE CONFIG
 # -----------------------------
 st.set_page_config(
