@@ -160,7 +160,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
        - Lithographic fidelity
 
     5. Literature validation
-       - Give two references which closely match the search. Only give titles from journals 
+       - Check in this google drive link: https://drive.google.com/drive/folders/1VW9t-jcBQa7rdYN4lFXhUURwZr4bOIWe?usp=sharing and list two references for it which matches closely
 
     Present the output as a clear, step-by-step experimental recipe
     suitable for immediate laboratory testing.
