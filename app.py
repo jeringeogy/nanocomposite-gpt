@@ -159,8 +159,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
        - Lithographic fidelity
 
     5. Literature validation
-       - Cite at least two peer-reviewed paper that demonstrates
-         similar material systems or validates the approach. Give proper DOI. Cross-check is web and perplexity before giving references
+       - Check in google scholar and give references to atleast two closely related papers. Do not make up papers.
 
     Present the output as a clear, step-by-step experimental recipe
     suitable for immediate laboratory testing.
