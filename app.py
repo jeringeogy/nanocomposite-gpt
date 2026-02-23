@@ -168,7 +168,7 @@ if st.button("🔬 Generate Nanocomposite Recipes"):
 
     with st.spinner("Designing UV-curable nanocomposite recipes for meta-optics..."):
         response = client.chat.completions.create(
-            model="gpt-5.2",
+            model="gpt-4.1",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt}
